@@ -1,0 +1,323 @@
+/*Estilos generales */
+body { 
+    font-family: Arial, sans-serif; 
+    line-height: 1.5; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #eef599; 
+    color: #d6d5e4; 
+    position: relative; 
+}
+
+
+/* Encabezado */
+header {
+    background-color: #0a0a0a;
+    color: rgb(64, 12, 141);
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+}
+
+header span {
+    margin: 0;
+    font-size: 2.5em;
+    color: #bff4f4;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 56px;
+}
+h2 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #b1aaf2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:40px;
+}
+h3 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #f0f8b3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:30px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2;
+    font-size: 30px;
+    color: #f5f9f9;
+}
+/* Redes Sociales */
+.social-icons {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    gap: 1px;
+    padding: 5px 20px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    color: #4dc0e6;
+    padding: 0px;
+    padding: 5px 20px;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 10PX;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #2e322b;
+}
+
+nav ul li {
+    margin: 0 50px;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+nav ul li a {
+    color: rgb(200, 168, 245);
+    text-decoration: underline;
+    padding: 5px 10px;
+}
+
+/* Diseño principal */
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Secciones principales */
+.content {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: auto;
+}
+
+.topic-box {
+    background: rgb(34, 34, 34);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(34, 28, 28, 0.1);
+}
+
+/* Galería */
+.gallery-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery-box img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Barra lateral */
+.sidebar {
+    flex: 1;
+    background: #6f7068;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(224, 145, 145, 0.1);
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 20px;
+}
+
+.sidebar li  {
+    text-decoration: none;
+    color: #f5f6f8;
+    transition: color 0.3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.sidebar ul li a:hover {
+    color: #0056b3;
+}
+
+.info-box {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #322f2f;
+    border: 1px solid #afc16b;
+    border-radius: 5px;
+}
+video {
+    width: 200%;
+    max-width: 550px; /* Reduce el tamaño máximo del video */
+    display: block;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 2px;
+}
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgb(118, 127, 255);
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #90a0fc;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+table th {
+    background-color: #70dafa;
+    color: rgb(10, 10, 10);
+}
+table td {
+    background-color: #5bf5c1;
+    color: rgb(10, 10, 10);
+}
+ul {
+    list-style-type: none; /* Quita los puntos predeterminados */
+    padding-left: 20px; /* Añade un poco de espacio a la izquierda */
+}
+
+ul li {
+    position: relative; /* Permite posicionar el pseudo-elemento antes de cada ítem */
+    padding-left: 25px; /* Deja un espacio antes del texto */
+    margin-bottom: 10px; /* Espacio entre los ítems */
+    font-size: 30px;
+    color: #fdfafa; /* Color del texto */
+}
+/* Estilo para las listas ordenadas (ol) */
+ol {
+    padding-left: 20px; /* Espacio a la izquierda */
+    margin-top: 20px;
+}
+
+ol li {
+    position: relative; /* Permite posicionar el pseudo-elemento antes de cada ítem */
+    padding-left: 25px; /* Deja un espacio antes del texto */
+    margin-bottom: 10px; /* Espacio entre los ítems */
+    font-size: 30px;
+    color: #fcf9f9; /* Color del texto */
+}
+/* Estilos para la sección de contacto */
+.contacto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.formulario {
+    flex: 1 1 45%;
+    background: rgb(102, 96, 96);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 1px 1px rgba(56, 56, 56, 0.1);
+}
+
+.formulario h2 {
+    margin-top: 0;
+    color: #380cfd;
+}
+
+.formulario label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.formulario input, .formulario textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #c66969;
+    border-radius: 20px;
+    font-size: 1em;
+}
+
+.formulario button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0a500;
+    color: rgb(25, 21, 21);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.formulario button:hover {
+    background-color: #d38e00;
+}
+
+/* Estilo para la información de contacto y el mapa */
+.informacion-contacto {
+    flex: 1 1 45%;
+    background: rgb(110, 111, 115);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(241, 138, 138, 0.1);
+}
+
+.informacion-contacto h3 {
+    color: #384021;
+}
+
+.informacion-contacto p {
+    margin: 10px 0;
+}
+
+.mapa iframe {
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #61615d;
+    color: rgb(28, 23, 23);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer-logos img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+
+
